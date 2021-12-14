@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="This is a solution to the Ping coming soon page challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects."
+    />
+    <meta
+      name="keywords"
+      content="frontendmentor, HTML, SASS/SCSS, JavaCript, git, BEM, challenge"
+    />
+
+    <meta name="author" content="Esteban Canaza Ayarachi" />
+
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@stebanc" />
+    <meta
+      name="twitter:url"
+      content="https://stebanc.github.io/ping-coming-soon-page/"
+    />
+    <meta
+      name="twitter:title"
+      content="# Frontend Mentor - Ping coming soon page solution"
+    />
+    <meta
+      name="twitter:description"
+      content="This is a solution to the Ping coming soon page challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects."
+    />
+    <meta
+      name="twitter:image"
+      content="https://stebanc.github.io/ping-coming-soon-page/images/ping-coming-soon-page-solution.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/376258073f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./images/logo.svg" alt="Logo" />
+    </header>
+
+    <main class="main">
+      <h1 class="main__title"><span>We are launching </span>soon!</h1>
+      <p class="main__text">Subscribe and get notified</p>
+      <form class="form" id="form">
+        <div id="email" class="form__group" data-error="Please provide a valid email address">
+          <input
+            class="form__input"
+            type="email"
+            name="email"
+            placeholder="Your email address..."
+            autofocus
+          />
+        </div>
+        <div class="form__group form__group--btn">
+          <button class="form__btn" formnovalidate>Notify Me</button>
+        </div>
+      </form>
+      <img
+        src="./images/illustration-dashboard.png"
+        alt="illustration dashbord"
+        class="main__illustration"
+      />
+    </main>
+
+    <footer class="footer">
+      <ul class="footer__social">
+        <li>
+          <a
+            class="footer__social-link"
+            href="#"
+            aria-label="click to be redirected to the facebook site"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="footer__social-link"
+            href="#"
+            aria-label="click to be redirected to the twitter site"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="footer__social-link"
+            href="#"
+            aria-label="click to be redirected to the instagram site"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+      <p class="footer__copyright">
+        &copy; Copyright Ping. All rights reserved.
+      </p>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/stebanc/ping-coming-soon-page">Esteban Canaza A.</a>.
+      </p>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
